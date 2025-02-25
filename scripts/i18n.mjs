@@ -3,7 +3,7 @@
 /**
  * Supported languages, currently used for generating index.html
  */
-export const LANGS = ["en", "zh-CN"];
+export const LANGS = ["en"];
 /** @type {import("./types").TFallbackLang} */
 export const FALLBACK_LANG = "en";
 
