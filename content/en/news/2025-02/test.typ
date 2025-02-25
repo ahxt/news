@@ -14,7 +14,7 @@
 #show math.equation: div-frame.with(attrs: ("style": "display: flex; justify-content: center; overflow-x: auto;"))
 
 // #show math.equation.where(block: false): it => html.elem("span", html.frame(it))
-#show math.equation.where(block: true): it => html.frame(it)
+// #show math.equation.where(block: true): it => html.frame(it)
 
 = Math
 
