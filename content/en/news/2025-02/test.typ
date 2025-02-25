@@ -2,11 +2,11 @@
 // #import "/typ/templates/template.typ": *
 
 #show: news-template.with(
-  date: "2025-02-06",
-  title: "Typst 0.13.0, RC 1 released",
+  date: "2025-02-09",
+  title: "Typst 0.13.0, RC 1 released ioui",
   lang: "en",
   tags: ("update",),
-  description: "Typst 0.13.0, RC 1 was released.",
+  description: "Typst 0.13.0, eeeRC 1 was released.",
 )
 
 
