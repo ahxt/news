@@ -12,13 +12,7 @@
 
 = Math
 
-
-
-\
-
-
-// $bold(cal(G))$ === $cal(G)$
-
+This is test inline math: $A = pi r^2$. look at this: $A = pi r^2$. looks good.
 
 
 
