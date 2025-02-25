@@ -16,7 +16,7 @@ const main = () => (isDev ? mainWatch() : mainBuild());
 const mainWatch = () => {
   // When these files change, we need to reload the documents.
   const watcher = watch([
-    "content/{en,zh-CN}/news/**/*.typ",
+    "content/en/news/**/*.typ",
     "content/meta/news-list.json",
     "src/**/*.typ",
   ]);
