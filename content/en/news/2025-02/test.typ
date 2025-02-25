@@ -9,6 +9,8 @@
   description: "Typst 0.13.0, eeeRC 1 was released.",
 )
 
+#show math.equation.where(block: false): it => html.elem("span", html.frame(it))
+#show math.equation.where(block: true): it => html.frame(it)
 
 = Math
 
