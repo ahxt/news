@@ -9,6 +9,10 @@
   description: "Typst 0.13.0, eeeRC 1 was released.",
 )
 
+
+#let div-frame(content, attrs: (:)) = html.elem("div", html.frame(content), attrs: attrs)
+#show math.equation: div-frame.with(attrs: ("style": "display: flex; justify-content: center; overflow-x: auto;"))
+
 // #show math.equation.where(block: false): it => html.elem("span", html.frame(it))
 #show math.equation.where(block: true): it => html.frame(it)
 
