@@ -10,7 +10,7 @@
 )
 
 #show math.equation.where(block: false): it => html.elem("span", html.frame(it))
-#show math.equation.where(block: true): it => html.frame(it)
+// #show math.equation.where(block: true): it => html.frame(it)
 
 = Math
 
