@@ -1,8 +1,7 @@
 #import "/typ/templates/news.typ": *
 // #import "/typ/templates/template.typ": *
 
-#show math.equation.where(block: false): it => html.elem("span", html.frame(it)) 
-#show math.equation.where(block: true): it => html.frame(it) 
+
 
 #show: news-template.with(
   date: "2025-02-06",
@@ -12,7 +11,8 @@
   description: "Typst 0.13.0, RC 1 was released.",
 )
 
-
+#show math.equation.where(block: false): it => html.elem("span", html.frame(it)) 
+#show math.equation.where(block: true): it => html.frame(it) 
 
 
 Typst 0.13.0, RC 1 was releases. #link("https://staging.typst.app/docs/changelog/0.13.0", "Changelog").
